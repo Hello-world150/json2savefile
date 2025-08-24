@@ -1,0 +1,10 @@
+[package]
+name = "json2bin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+savefile = "0.19.0"
+savefile-derive = "0.19.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.143"
