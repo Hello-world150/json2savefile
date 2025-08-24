@@ -29,7 +29,6 @@ struct Hitokoto {
 fn main() {
     // Collect arguments
     let args: Vec<String> = env::args().collect();
-    dbg!(&args);
 
     // Init file path
     let json_path = &args[1];
